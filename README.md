@@ -11,6 +11,7 @@ This Google Cast demo application shows how to send messages from an Chrome desk
 * Register an application on the Developers Console (http://cast.google.com/publish). Select the Custom Receiver option and specify the URL to where you are hosting the receiver.html file (You can use Google Drive to host your files: https://googledrive.com/host/0B716ywBKT84AMXBENXlnYmJISlE/GoogleDriveHosting.html). You will get an App ID when you finish registering your application.
 * Setup the project dependencies
 * Insert your App ID in the chromehellotext.html file of the project (look for applicationID in that file)
+* Go to your Chromecast settings and check the box that says "Send this Chromecast's serial number to Google when checking for udpates"
 * Upload the chromehellotext.html file to your hosting server and load the URL for that file in your Chrome browser.
 
 ## References and How to report bugs
